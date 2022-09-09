@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="../style/admin.css" />
+  </head>
+  <body onload="append()">
+    <h1>welcome Admin!</h1>
+
+    <div id="admin" class="admin">
+      <button class="add_menu" onclick="change()">Add New Menu</button>
+      <button class="remove_menu" onclick="change_one()">Remove Menu</button>
+      <button class="update_menu" onclick="change_two()">
+        Update The Menu
+      </button>
+      <button class="content" onclick="change_three()">
+        Change Content Into The Menu
+      </button>
+      <button class="gorge" onclick="menu()">Go to the Menu</button>
+      <!-- add product -->
+      <form action="" id="menu" class="menu">
+        <h2>Add New Menu</h2>
+        <input type="text" id="image" placeholder="Image link" />
+        <input type="text" id="title" placeholder="Title" />
+        <input
+          type="text"
+          id="description"
+          placeholder="Description of product"
+        />
+        <input type="number" id="price" placeholder="Price" />
+        <input type="number" id="rating" placeholder="rating" />
+        <input type="text" id="id" placeholder="Product Id" />
+        <div id="btn_menu" class="btn_menu">
+          <button class="btn_btn" onclick="add_product()">Add New Menu</button>
+        </div>
+      </form>
+
+      <!-- remove product -->
+
+      <form id="remove" class="remove">
+        <h2>Remove Menu</h2>
+        <input type="text" id="remove_id" placeholder="Product Id" />
+        <button class="btn_btn" onclick="delete_product()">
+          Click to Remove
+        </button>
+      </form>
+      <!-- put call  -->
+      <form id="update_menu" class="update_menu">
+        <h2>Update The Menu</h2>
+        <input type="text" id="update_image" placeholder="Image link" />
+        <input type="text" id="update_title" placeholder="Title" />
+        <input
+          type="text"
+          id="update_description"
+          placeholder="Description of product"
+        />
+        <input type="number" id="update_price" placeholder="Price" />
+        <input type="number" id="update_rating" placeholder="rating" />
+        <input type="text" id="update_id" placeholder="Product Id" />
+
+        <button class="btn_btn" onclick="update_product()">
+          Update To Menu
+        </button>
+      </form>
+
+      <!-- patch call -->
+      <form id="update_content" class="update_content">
+        <h2>Change Content Into The Menu</h2>
+        <input
+          type="text"
+          id="content_image"
+          placeholder="Product_Image link"
+        />
+        <input type="text" id="content_title" placeholder="Product_Title" />
+        <input
+          type="text"
+          id="content_description"
+          placeholder="Description of product"
+        />
+        <input type="number" id="content_price" placeholder="Product_Price" />
+        <input type="number" id="content_rating" placeholder="Product_rating" />
+        <input type="number" id="content_id" placeholder="Product--ID" />
+
+        <button id="onclick" onclick="update_content()" class="btn_btn">
+          Click Here
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="../scripts/admin.js"></script>

@@ -1,0 +1,92 @@
+#imge{
+           
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+}
+#imge>img{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+      div>label{
+          padding-left: 30px;
+          margin-bottom: 10px;
+   }
+   div>input{
+       margin-left: 30px;
+  width: 85%;
+  height: 40px;
+          margin-bottom: 20px;
+          border-radius: 8px;
+          border: 1px solid rgb(198, 187, 187);
+   }
+
+   div>input::placeholder{
+       padding-left: 10px;
+       color: rgb(221,217,220);
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         
+    }
+div{
+      width: 32%;
+    
+      margin: auto;
+       margin-top: 20px;
+       
+
+}
+div+div{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       border-radius: 10px;
+       margin-bottom: 5px;
+}       div>label{
+   display: block;
+}
+
+
+p{
+   color: rgb(162,166,175);
+   width: 85%;
+   margin: auto;
+   text-align: center;
+   font-size: 18px;
+   padding-bottom: 40px;
+   margin-top: 20px;
+}
+#new{  color: rgb(162,166,175);
+   width: 85%;
+   margin: auto;
+   margin-top: 20px;
+
+   font-size: 16px; 
+   
+}
+button{
+   width: 85%;
+   height: 50px;
+   margin-left: 30px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   margin-top: 30px;
+   color: rgb(162,166,175);
+   border: transparent;
+  
+}
+button:hover{
+   background-color: rgb(37,99,235);
+   color: white;
+}
+a{
+   color: rgb(106,159,241);
+   font-weight: 600;
+}
+#adjust{
+   margin-left: 230px;
+}

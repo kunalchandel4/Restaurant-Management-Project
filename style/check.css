@@ -1,0 +1,23 @@
+form>input{
+    display: block;
+    margin: 40px 0px;
+    outline: none;
+   border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+ 
+    }
+    form>input:nth-child(5){
+       background-color: black;
+       color: white;
+        cursor: pointer;
+     
+        }
+    form{
+        width: 20%;
+        padding: 20px 30px;
+        margin: 150px auto;
+        background-color: skyblue;
+    }
